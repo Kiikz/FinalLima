@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Improving an UI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+ 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set background color and height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #ffffff;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: rgb(253, 253, 253);
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<!-- NavBar -->
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Austin Reach</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id=".navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="badex.html">Bad Example</a></li>
+        <li><a href="goodex.html">Improved Example</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!-- Middle NavBar -->
+
+    <div class="col-sm-8 text-center"> 
+    <br>
+      <h2>Here is my proposed fix.</h2>
+      <p>By changing the sliding of the year we can turn this selection into a smaller button selection. This would mean the user can easily select the year of expiration.</p>
+    <br>
+    </div>
+    <!-- Group Buttons -->
+    <div class="btn-group" style="width:50%">
+      <p>Please select expiration year.</p>
+      <button style="width:33.3%">21</button>
+      <button style="width:33.3%">22</button>
+      <button style="width:33.3%">23</button>
+      <button style="width:33.3%">24</button>
+      <button style="width:33.3%">25</button>
+      <button style="width:33.3%">26</button>
+      <button style="width:33.3%">27</button>
+      <button style="width:33.3%">28</button>
+    </div>
+
+    <h4>This allows the user to see all the years up front without sliding multiple times to find their respected year or accidently picking the wrong year!</h4>
+  </div>
+</div>
+<br>
+<br>
+
+
+</body>
+</html>
